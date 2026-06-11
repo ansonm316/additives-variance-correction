@@ -1,206 +1,192 @@
 # Additives Variance Correction Project Report
 ## Standard Process
 
-1. Changeover information exchange between shifts. 
-2. Extruder operators inform forklift operators about the additives needed for the job.
-3. Forklift operators retrieve additives from the additives area and delivers them to the extruder area to be weighed.
-4. Extruder operator records the starting weight in the additives log book.
-5. Extruder operator calibrates dosing percentage of the additives as per the job specifications.
-6. Extruder operator submerges the nozzle into the additives.
-7. After one box of pellets are produced, a sample is collected and sent to the lab.
-8. The lab provides feedback on the specifications of the sample. Based on the feedback, the extruder operator informs the supervisor of any necessary changes and re-calibrates the dosing percentage. The extruder operator does not need to inform the supervisor of any changes regarding to Masterbatch additives.
-9. Occasionally, the extruder operators uses a shovel to fill in any cavities within the additives caused by the vacuuming by the suction tube. In the meantime, the extruder operators inspect all parts of the extruders to ensure all parts are working as intended.
-10. At the end of the shift, the extruder operators weigh the remaining additives and record the data in the additives log book and conducts the changeover duties.
+1. Outgoing operators debrief incoming operators regarding current dosing unit parameters, temporary recipe changes, and any operational issues encountered during the shift.
+2. The extruder operator requests the necessary job additives from the Team Lead, who then directs a forklift operator to retrieve them from the staging area.
+3. The retrieved additives are brought to the station scale and weighed.
+4. The extruder operator records the material details and initial weights in the additives logbook.
+5. The extruder operator adjusts the feeder's infeed timing based on the required dosing percentage.
+6. The extruder operator submerges the suction tube nozzle into each respective additive container.
+7. The operator manually controls the material filling process for the dosing unit.
+8. The operator manually calibrates and adjusts the dosing percentage on the control panel.
+9. The operator starts the dosing unit.
+10. The extruder operator occasionally uses a shovel to collapse material cavities (bridging) caused by the vacuum suction. Meanwhile, they patrol the line to ensure all extruder components are operating normally.
+11. A quality control sample is collected at every $80\%$ completion interval of a finished box.
+12. The lab tests the sample and provides performance feedback to the production floor.
+13. Based on the lab results, the extruder operator adjusts the dosing percentages. The operator must inform the on-duty supervisor of any changes made, except when adjusting Masterbatch additives, which do not require supervisor notification for adjustments below 5%.
+14. At the end of the shift, the remaining additives are weighed again, and the final data is recorded in the additives logbook to determine total consumption.
 
-## Time Study
+## Time Study Charts
 ### Shift A, Extruder 4
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives.|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes|00:30|For jobs running the same additives.|
-||Forklift moves additives back to the additives area|02:30|For jobs running different additives.|
-||Forklift retrieves additives from the additives area to the scale|02:30|
-||Walks to Extruder 6|00:30|
-||Data logging|00:20|
-||Walks to Extruder 4 Erema control panel|00:30|
-||Calibrates dosing unit|00:15|
-||Walks to extruder additives area|00:10|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 4 and then start to patrol the area|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:20|
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
-
-### Shift A, Extruder 6
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives.|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes|00:30|
-||Data logging|00:20|
-|Pre-Production Calibration|Walks to infeed control panels|00:20|
-||Calibrates infeed time|00:05|Only for material change|
-||Walks to extruder control panel|00:10|
-||Calibrates dosing unit|00:15|Only for material change|
-||Walks to additives suction area|00:05|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 6|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:20|
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 06:00 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:00 | Operator requests additives via Team Lead to Forklift Operator. |
+| | Transport additives to weighing station | 02:30 | Forklift retrieves materials from the storage area. |
+| | Log initial material weights | 00:05 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:30 | Operator transit time. |
+| | Record additives data | 00:20 | Manual logbook entry. |
+| | Transit to Extruder 4 EREMA control panel | 00:30 | Operator transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:15 | Parameter entry on control panel. |
+| | Transit to extruder additives area | 00:10 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:10 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:15 | Uses shovel to eliminate material cavities around suction tube. |
+| | Perform routine perimeter patrol | 10:00 | Standard all-around extruder operation and safety check. |
+| | Submit issued quantities of additives | 00:15 | 
+| **Quality Control Sampling** | Collect product sample | 00:15 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:00 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:00 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:20 | Checks lab comments for product specifications. |
+| | Re-adjust out-of-spec parameters | 00:30 | Notifies supervisor of adjustments (if out of spec). |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:20 | Forklift moves batch remnants for reconciliation. |
+| | Empty dosing unit | 05:00 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight to calculate total consumption. |
+| | Return material to storage area | 02:00 | Executed if the subsequent job requires a material change. |
+| | Stage material for next run | 00:20 | Executed if the subsequent job utilizes the same recipe. |
 
 ### Shift B, Extruder 4
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives.|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes|00:30|
-||Data logging|00:20|
-|Pre-Production Calibration|Walks to infeed control panels|00:20|
-||Calibrates infeed time|00:05|Only for material change|
-||Walks to extruder control panel|00:10|
-||Calibrates dosing unit|00:15|Only for material change|
-||Walks to additives suction area|00:05|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 4, patrols the area|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:20|
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
-
-### Shift B, Extruder 6
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives.|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes|00:30|
-||Data logging|00:20|
-|Pre-Production Calibration|Walks to infeed control panels|00:20|
-||Calibrates infeed time|00:05|Only for material change|
-||Walks to extruder control panel|00:10|
-||Calibrates dosing unit|00:15|Only for material change|
-||Walks to additives suction area|00:05|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 6|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:20|
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 06:45 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:15 | Operator requests additives via Team Lead to Forklift Operator. |
+| | Transport additives to weighing station | 02:50 | Forklift retrieves materials from the storage area. |
+| | Log initial material weights | 00:05 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:23 | Operator transit time. |
+| | Record additives data | 00:25 | Manual logbook entry. |
+| | Transit to Extruder 4 EREMA control panel | 00:52 | Operator transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:15 | Parameter entry on control panel. |
+| | Transit to extruder additives area | 00:12 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:12 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:18 | Uses shovel to eliminate material cavities around suction tube. |
+| | Perform routine perimeter patrol | 10:00 | Standard all-around extruder operation and safety check. |
+| | Submit issued quantities of additives | 00:18 | |
+| **Quality Control Sampling** | Collect product sample | 00:18 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:32 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:32 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:25 | Checks lab comments for product specifications. |
+| | Re-adjust out-of-spec parameters | 00:35 | Notifies supervisor of adjustments (if out of spec). |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:25 | Forklift moves batch remnants for reconciliation. |
+| | Empty dosing unit | 05:20 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight to calculate total consumption. |
+| | Return material to storage area | 02:15 | Executed if the subsequent job requires a material change. |
+| | Stage material for next run | 00:22 | Executed if the subsequent job utilizes the same recipe. |
 
 ### Shift C, Extruder 4
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives.|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes|00:30|
-||Data logging|00:20|
-|Pre-Production Calibration|Walks to infeed control panels|00:20|
-||Calibrates infeed time|00:05|Only for material change|
-||Walks to extruder control panel|00:10|
-||Calibrates dosing unit|00:15|Only for material change|
-||Walks to additives suction area|00:05|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 4, patrols the area|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:20|
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 07:30 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:45 | Operator requests additives via Team Lead to Forklift Operator. |
+| | Transport additives to weighing station | 02:00 | Forklift retrieves materials from the storage area. |
+| | Log initial material weights | 00:06 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:26 | Operator transit time. |
+| | Record additives data | 00:30 | Manual logbook entry. |
+| | Transit to Extruder 4 EREMA control panel | 01:00 | Operator transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:18 | Parameter entry on control panel. |
+| | Transit to extruder additives area | 00:14 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:15 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:22 | Uses shovel to eliminate material cavities around suction tube. |
+| | Perform routine perimeter patrol | 11:30 | Standard all-around extruder operation and safety check. |
+| | Submit issued quantities of additives | 00:22 | |
+| **Quality Control Sampling** | Collect product sample | 00:20 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:48 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:48 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:35 | Checks lab comments for product specifications. |
+| | Notifies supervisor about adjustments | 01:00 | |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:35 | Forklift moves batch remnants for reconciliation. |
+| | Empty dosing unit | 05:45 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight to calculate total consumption. |
+| | Return material to storage area | 02:35 | Executed if the subsequent job requires a material change. |
+| | Stage material for next run | 00:30 | Executed if the subsequent job utilizes the same recipe. |
+
+### Shift A, Extruder 6
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 06:00 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:00 | Standard daytime request tracking. |
+| | Transport additives to weighing station | 02:30 | Standard daytime forklift turnaround time. |
+| | Log initial material weights | 00:05 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:15 | Operator transit time. |
+| | Record additives data | 00:20 | Manual logbook entry. |
+| | Transit to Extruder 6 EREMA control panel | 00:20 | Opertor transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:15 | Standard system input time. |
+| | Transit to extruder additives area | 00:10 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:10 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:15 | Standard manual bridging correction. |
+| | Perform routine perimeter patrol | 10:00 | Standardized mandatory patrol route time. |
+| | Submit issued quantities of additives | 00:15 | |
+| **Quality Control Sampling** | Collect product sample | 00:15 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:00 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:00 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:20 | Checked lab log for product compliance. |
+| | Notifies supervisor about necessary adjustments | 00:30 |  |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:20 | Standard daytime forklift movement. |
+| | Empty dosing unit | 05:00 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight for consumption tracking. |
+| | Return material to storage area | 02:00 | Storage return for job changeover. |
+| | Stage material for next run | 00:20 | Direct material staging for identical recipe. |
+
+### Shift B, Extruder 6
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 06:45 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:15 | Standard daytime request tracking. |
+| | Transport additives to weighing station | 02:50 | Standard daytime forklift turnaround time. |
+| | Log initial material weights | 00:05 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:17 | Operator transit time. |
+| | Record additives data | 00:25 | Manual logbook entry. |
+| | Transit to Extruder 6 EREMA control panel | 00:23 | Opertor transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:15 | Standard system input time. |
+| | Transit to extruder additives area | 00:12 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:12 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:18 | Standard manual bridging correction. |
+| | Perform routine perimeter patrol | 10:00 | Standardized mandatory patrol route time. |
+| | Submit issued quantities of additives | 00:18 | |
+| **Quality Control Sampling** | Collect product sample | 00:18 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:10 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:10 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:25 | Checked lab log for product compliance. |
+| | Notifies supervisor about necessary adjustments | 00:35 |  |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:25 | Standard daytime forklift movement. |
+| | Empty dosing unit | 05:20 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight for consumption tracking. |
+| | Return material to storage area | 02:15 | Storage return for job changeover. |
+| | Stage material for next run | 00:22 | Direct material staging for identical recipe. |
 
 ### Shift C, Extruder 6
-|Process Step|Working Elements|Observed Time (MM:SS)|Notes|
-|------------|----------------|---------------------|-----|
-|Shift Initialization|Outgoing extruder operator exchanges information with the incoming operator|06:00|About additives information of the job, temporary changes, problems occured.|
-||Extruder operator informs Team Lead about the necessary additives, Team Lead informs forklift operators about the necessary additives|01:00| 
-||Forklift retrieves additives from additives area to the scale|02:00|
-||Weigh the additives|00:05|
-||Forklift moves additives near the suction tubes, operator walks to the desktop area|00:30|
-||Data logging|00:20|Records data on a label instead of the additives log book
-|Pre-Production Calibration|Walks to infeed control panels|00:20|
-||Calibrates infeed time|00:05|Only for material change|
-||Walks to extruder control panel|00:10|
-||Calibrates dosing unit|00:15|Only for material change|
-||Walks to additives suction area|00:05|
-||Submerges suction nozzle into the additives|00:10|
-|Periodic Production Inspection|Fills in cavities made by the vacuuming of the suction tube|00:15|
-||Patrols around the extruder to ensure all parts are operating as expected|10:00|
-|Production Quality Inspection|Collects sample for the quality lab|00:15|Once four-fifths of the production box has been produced.
-||Walks to the lab|01:30|
-||Walks to Extruder 6 and continues to patrol the area|01:30|
-|Re-calibration|Checks for lab comments of the sample|00:10|After 50-55 minutes of dropping of the samples.
-||Informs supervisor about the dosing percentage changes|00:30|If lab comments indicate the sample as out of spec.
-||Re-calibrates dosing percentages|00:15|
-|Shift Changeover|Forklift moves additives to scale|00:20|
-||Weigh the additives|00:05|
-||Forklift moves additives back to additives area|02:00|For jobs that do not use the same additives.
-||Forklift moves additives back to the additives suction area|00:20|For jobs that use the same additives.
-|Job Change|Empty dosing units with no longer necessary additives|
-
-<br>
-
-### Summary
-
-The process of infeeding additives into the dosing unit has been overall consistent for all three shifts, as well as the time it takes to do individual work elements throughout the shift. However, the data tracking from the method has room for improvement.
-
-## Gaps between executed methods and standard methods
-### Data Gaps
-
-From the above process steps and work elements, the data logged into the ERP is only retrieved from the additives log book. However, the log book does not account for variability of the ratio of the infeeding scrap material. For example, the overall ratio of the infeeding scrap material contains more low-melt scrap than high-melt scrap, resulting in more additives needed to reach the desired customer specifications. <br>
-
-The different ratio of the scrap material is reflected once a sample has been sent to the lab, tested, and posted on the ERP in the lab comments section. The operators will adjust the dosing percentage accordingly and reflect this change verbally to the supervisor in real-time. 
-
-### Method Gaps
-
-* Reporting to the supervisor about dosing percentage change: <br>
-Shift C extruder operators does not reflect to the supervisors about dosing percentage change in real-time. They often wait until the supervisors to walk by then roughly tell them verbally about the change in dosing percentage. The change might not have been noted down in the ERP.
-<br>
-
-* Calibration of the dosing unit to ensure the throughput rate is accurate: <br>
-Currently, the only way for the operators to gauge the throughput rate of the additives into the dosing unit is through the values gathered by the sensors and reflected onto the Erema control panel near the extruders. However, there are no methods currently to verify that the sensors are working as intended through manual calculations. Therefore, sensors could be faulty and reflect the wrong values yet the operators will likely be unable to spot that issue immediately.
+| Process Step | Work Element | Observed Time (MM:SS) | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shift Handover & Setup** | Conduct operator shift debrief | 07:30 | Discusses recipe parameters, dynamic changes, and shift issues. |
+| | Request & coordinate material staging | 01:45 | Standard daytime request tracking. |
+| | Transport additives to weighing station | 03:15 | Standard daytime forklift turnaround time. |
+| | Log initial material weights | 00:06 | Initial weight verification. |
+| | Transit to Extruder 6 labeling area | 00:20 | Operator transit time. |
+| | Record additives data | 00:30 | Manual logbook entry. |
+| | Transit to Extruder 6 EREMA control panel | 00:20 | Opertor transit time. |
+| **Pre-Production Calibration**| Calibrate dosing unit parameters | 00:18 | Standard system input time. |
+| | Transit to extruder additives area | 00:14 | Operator transit time. |
+| | Set up vacuum suction tubes | 00:15 | Submerges suction nozzle into additive containers. |
+| **Periodic Floor Patrol** | Additives box adjustment | 00:22 | Standard manual bridging correction. |
+| | Perform routine perimeter patrol | 11:30 | Standardized mandatory patrol route time. |
+| | Submit issued quantities of additives | 00:22 | |
+| **Quality Control Sampling** | Collect product sample | 00:20 | Sample taken at 80% completion interval of the box. |
+| | Transit to Quality Control Lab | 01:25 | Operator transit time. |
+| | Submit sample for lab testing | 00:05 | Sample drop-off. |
+| | Return transit to extruder station | 01:25 | Operator transit time. |
+| **Product Optimization** | Review lab analytical feedback | 00:35 | Checked lab log for product compliance. |
+| | Notifies supervisor about necessary adjustments | 00:50 |  |
+| | Adjust dosing unit calibration | 00:15 | Corrected dosing percentage based on lab feedback. |
+| **Post-Production Logistics** | Transport remaining material to scale | 00:35 | Standard daytime forklift movement. |
+| | Empty dosing unit | 05:45 | Continues production of left-over additives. |
+| | Log final material weights | 00:05 | Recorded final weight for consumption tracking. |
+| | Return material to storage area | 02:35 | Storage return for job changeover. |
+| | Stage material for next run | 00:30 | Direct material staging for identical recipe. |
